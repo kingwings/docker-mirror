@@ -8,9 +8,9 @@ on:
         required: true
         default: 'qdrant/qdrant'
       NEW_NAME:
-        description: '同步后镜像名称'
+        description: '同步后镜像名称,阿里云不支持子目录'
         required: true
-        default: 'qdrant/qdrant'
+        default: 'qdrant'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
